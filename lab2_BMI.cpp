@@ -23,7 +23,7 @@ int main(void)
 		exit(1);
 	}	
 	//start to write the result into file.out.
-	cout<<"Contents of file.out:\n\n";
+	cout<<"\nContents of file.out:\n\n";
 	while(inputFile>>height_cm>>mass_kg)
 	{
 		if(height_cm>0)

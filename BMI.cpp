@@ -7,18 +7,17 @@ void BMI::getValue(float h,float m)
 {
 	height_mks=h;
 	mass_mks=m;
+	BMI_value=mass_mks/height_mks/height_mks;
 }
 
 
 float BMI::output_BMI_value(void)
 {
-	BMI_value=mass_mks/height_mks/height_mks;
 	return BMI_value;
 }
 
 std::string BMI::output_result(void)
 {
-	BMI_value=mass_mks/height_mks/height_mks;
 	if(BMI_value<15.0)
 		result="Very Severely underweight";
 	else if(BMI_value<16.0)
