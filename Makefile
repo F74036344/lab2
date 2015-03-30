@@ -1,11 +1,11 @@
-main6: timer6.o main6.o
-	g++ -o timer6 main6.o timer6.o
+lab2_BMI: lab2_BMI.o BMI.o
+	g++ -o lab2_BMI lab2_BMI.o BMI.o
 
-timer6.o: timer6.cpp timer6.h
-	g++ -c timer6.cpp
+lab2_BMI.o: lab2_BMI.cpp BMI.h
+	g++ -c lab2_BMI.cpp
 
-main6.o: main6.cpp timer6.h
-	g++ -c main6.cpp
+BMI.o: BMI.cpp BMI.h
+	g++ -c BMI.cpp
 
 clean:
-	rm timer6 *.o
+	rm lab2_BMI *.o

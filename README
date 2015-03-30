@@ -1,0 +1,6 @@
+use following command to update the program lab2_BMI:
+	make
+(The makefile methods were written in the file "Makefile" in the directory "lab2", the same I placed my .cpp, .o and ./files )
+Use following command to execute lab2_BMI:
+	./lab2_BMI
+The values in file.in are the same as ones of the example.
